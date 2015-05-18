@@ -6,6 +6,7 @@ import support.Master
 class Koans extends Suite {
   override def nestedSuites = List(
     new AboutValAndVar,
+    new AboutLiteralStrings,
     new AboutClasses
   )
 
