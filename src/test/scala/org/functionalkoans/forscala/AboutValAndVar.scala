@@ -14,7 +14,7 @@ class AboutValAndVar extends KoanSuite {
 
   koan(
     """vals are values, and may not be reassigned,
-      |analogous to final in Java""") {
+      | analogous to final in Java""") {
     val a = 5
     a should be(__)
 
@@ -25,7 +25,7 @@ class AboutValAndVar extends KoanSuite {
 
   koan(
     """All vals and var types are inferred by default,
-      |but you can add the type explicitly""") {
+      | but you can add the type explicitly""") {
     val a:Int = 10
     var b:String = "Hello" //NOTE: vars are not preferred in the Scala world
     b = b + " " + 10
@@ -39,7 +39,7 @@ class AboutValAndVar extends KoanSuite {
 
   koan(
     """Any strange characters that you wish to append
-      |in a variable or value can be used after an underscore""") {
+      | in a variable or value can be used after an underscore""") {
     val isThisMySalaryPerYear_? = 50000
     val thisShouldBeMyRaise_! = isThisMySalaryPerYear_? + 50000
     thisShouldBeMyRaise_! should be (__)

@@ -60,7 +60,7 @@ class AboutLiteralStrings extends KoanSuite with ShouldMatchers {
 	  */
 
     val a = """An apple a day
-               |keeps the doctor away"""
+               | keeps the doctor away"""
     a.stripMargin.split('\n')(1).charAt(0) should be(__)
 
    /*

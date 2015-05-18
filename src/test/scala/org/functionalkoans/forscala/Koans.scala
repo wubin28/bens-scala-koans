@@ -7,7 +7,8 @@ class Koans extends Suite {
   override def nestedSuites = List(
     new AboutLiteralStrings,
     new AboutValAndVar,
-    new AboutClasses
+    new AboutClasses,
+    new AboutMethods
   )
 
   override def run(testName: Option[String], reporter: Reporter, stopper: Stopper, filter: Filter,
